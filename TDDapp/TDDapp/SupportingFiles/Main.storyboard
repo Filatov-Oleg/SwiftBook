@@ -180,6 +180,9 @@
                                 <rect key="frame" x="170" y="318" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="save" destination="FLp-MG-sR3" eventType="touchUpInside" id="bwN-Bt-lPq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RT0-cT-X3y">
                                 <rect key="frame" x="163" y="356" width="48" height="30"/>
